@@ -1,0 +1,5 @@
+##
+# `should` is shorter than `is_expected.to` and visually superior.
+#
+RSpec/ImplicitExpect:
+  EnforcedStyle: should

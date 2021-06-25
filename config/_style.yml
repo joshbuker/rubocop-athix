@@ -1,0 +1,21 @@
+##
+# ¯\_(ツ)_/¯
+#
+Style/AsciiComments:
+  AllowedChars: ['ツ', '¯']
+
+##
+# This cop suggests changes that are not functionally equivalent, and its value
+# is currently debated within the ruby community.
+#
+# See: https://github.com/bbatsov/ruby-style-guide/issues/556
+#
+Style/ModuleFunction:
+  Enabled: false
+
+##
+# The readability of `[:some, :various, :symbols]` is superior to
+# `%i[some various symbols]`, in my opinion.
+#
+Style/SymbolArray:
+  EnforcedStyle: brackets

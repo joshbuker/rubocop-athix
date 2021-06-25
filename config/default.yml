@@ -1,0 +1,13 @@
+inherit_from:
+  - _layout.yml
+  - _metrics.yml
+  - _rspec.yml
+  - _style.yml
+
+require:
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 3.0.0
