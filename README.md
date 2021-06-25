@@ -24,6 +24,8 @@ inherit_gem:
 
 ### Ruby Gems
 
+**Gemfile**
+
 ```ruby
 gem 'rubocop-athix'
 gem 'rubocop-rspec'
@@ -38,6 +40,8 @@ inherit_gem:
 ```
 
 ### Other Ruby code
+
+**Gemfile**
 
 ```ruby
 gem 'rubocop-athix'
