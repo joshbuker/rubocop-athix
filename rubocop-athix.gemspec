@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-version  = '0.0.2'
+version  = '0.0.3'
 repo_url = 'https://github.com/athix/rubocop-athix'
 
 Gem::Specification.new do |s|
