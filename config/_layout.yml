@@ -10,24 +10,31 @@ Layout/LineLength:
   IgnoredPatterns: ['it { should']
   Max: 80
 
+##
 # Variable assignment can be indented weirdly, so align to the ending statement
-# instead
+# instead.
+#
 Layout/CaseIndentation:
   EnforcedStyle: end
-# Lines can get stupidly long if we indent it to the other params/args
+
+##
+# Lines can get stupidly long if we indent it to the other params/args.
+#
 Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
-# Force prettier hash alignment
+
+##
+# Force prettier hash alignment.
+#
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
-# It can be unclear if a line is truly ended unless the dot is on the method
-# receiver
-Layout/DotPosition:
-  EnforcedStyle: trailing
+
+##
 # Allow extra spaces when aligning to other operators...
 # (doesn't seem to work all the time though)
+#
 Layout/SpaceAroundOperators:
   AllowForAlignment: true
