@@ -18,6 +18,19 @@ AllCops:
     - 'tmp/**/*'
     - 'vendor/**/*'
 
+
+##
+# Use Rails I18n instead of GetText.
+#
+I18n/GetText:
+  Enabled: false
+
+##
+# Use Rails I18n instead of GetText.
+#
+I18n/RailsI18n:
+  Enabled: true
+
 ##
 # In the rest of the app, using the logger makes sense. However, it seems to
 # not play nicely when generating the seeds, and `puts` is pretty
