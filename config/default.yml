@@ -1,7 +1,6 @@
 inherit_from:
   - _layout.yml
   - _naming.yml
-  - _rspec.yml
   - _style.yml
 
 require:

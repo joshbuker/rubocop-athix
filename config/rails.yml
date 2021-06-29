@@ -1,4 +1,6 @@
-inherit_from: default.yml
+inherit_from:
+  - default.yml
+  - _rspec.yml
 
 require:
   - rubocop-rails
