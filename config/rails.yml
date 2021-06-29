@@ -18,7 +18,6 @@ AllCops:
     - 'tmp/**/*'
     - 'vendor/**/*'
 
-
 ##
 # Use Rails I18n instead of GetText.
 #
