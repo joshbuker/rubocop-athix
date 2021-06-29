@@ -10,10 +10,10 @@ Contains my commonly used styling overrides for Rubocop.
 
 ```ruby
 gem 'rubocop-athix'
+gem 'rubocop-i18n'
 gem 'rubocop-rails'
 gem 'rubocop-rake'
 gem 'rubocop-rspec'
-gem 'rubocop-i18n'
 ```
 
 **.rubocop.yml**

@@ -3,10 +3,10 @@ inherit_from:
   - _rspec.yml
 
 require:
+  - rubocop-i18n
   - rubocop-rails
   - rubocop-rake
   - rubocop-rspec
-  - rubocop-i18n
 
 AllCops:
   Exclude:
