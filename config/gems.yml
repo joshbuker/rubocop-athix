@@ -1,4 +1,5 @@
 inherit_from: default.yml
 
 require:
+  - rubocop-rake
   - rubocop-rspec

@@ -2,7 +2,9 @@ inherit_from: default.yml
 
 require:
   - rubocop-rails
+  - rubocop-rake
   - rubocop-rspec
+  - rubocop-i18n
 
 AllCops:
   Exclude:

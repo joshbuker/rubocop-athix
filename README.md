@@ -11,7 +11,9 @@ Contains my commonly used styling overrides for Rubocop.
 ```ruby
 gem 'rubocop-athix'
 gem 'rubocop-rails'
+gem 'rubocop-rake'
 gem 'rubocop-rspec'
+gem 'rubocop-i18n'
 ```
 
 **.rubocop.yml**
@@ -28,6 +30,7 @@ inherit_gem:
 
 ```ruby
 gem 'rubocop-athix'
+gem 'rubocop-rake'
 gem 'rubocop-rspec'
 ```
 

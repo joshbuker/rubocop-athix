@@ -28,8 +28,11 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.5.0'
 
   s.add_dependency 'rubocop', '~> 1.0'
+  s.add_dependency 'rubocop-packaging', '~> 0.5'
   s.add_dependency 'rubocop-performance', '~> 1.0'
+  s.add_dependency 'rubocop-thread_safety', '~> 0.4'
 
   s.add_development_dependency 'rake', '~> 12.0'
+  s.add_development_dependency 'rubocop-rake', '~> 0.6'
   s.add_development_dependency 'rubocop-rspec', '~> 2.0'
 end
