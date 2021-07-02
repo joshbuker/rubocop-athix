@@ -31,6 +31,12 @@ I18n/RailsI18n:
   Enabled: true
 
 ##
+# Translating the specs themselves doesn't make sense.
+#
+I18n/RailsI18n/DecorateString:
+  Exclude: 'spec/**/*'
+
+##
 # In the rest of the app, using the logger makes sense. However, it seems to
 # not play nicely when generating the seeds, and `puts` is pretty
 # straight-forward.
