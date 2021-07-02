@@ -26,6 +26,14 @@ inherit_gem:
 
 ### Ruby Gems
 
+**Gemspec**
+
+```ruby
+s.add_development_dependency 'rubocop-athix'
+s.add_development_dependency 'rubocop-rake'
+s.add_development_dependency 'rubocop-rspec'
+```
+
 **Gemfile**
 
 ```ruby
