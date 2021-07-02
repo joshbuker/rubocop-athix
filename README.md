@@ -2,6 +2,22 @@
 
 Contains my commonly used styling overrides for Rubocop.
 
+## Adding additional Excludes
+
+Inherit mode does not get inherited, meaning you'll need to add the following to
+your config if you overwrite the Exclude and want it to append rather than
+replace:
+
+```yaml
+##
+# Merge instead of overwriting. For more details, see:
+# https://docs.rubocop.org/rubocop/configuration.html#merging-arrays-using-inherit_mode
+#
+inherit_mode:
+  merge:
+    - Exclude
+```
+
 ## Usage
 
 ### Rails Applications

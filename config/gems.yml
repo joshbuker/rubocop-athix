@@ -5,3 +5,11 @@ inherit_from:
 require:
   - rubocop-rake
   - rubocop-rspec
+
+##
+# Merge instead of overwriting. For more details, see:
+# https://docs.rubocop.org/rubocop/configuration.html#merging-arrays-using-inherit_mode
+#
+inherit_mode:
+  merge:
+    - Exclude
