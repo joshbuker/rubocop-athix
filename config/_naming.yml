@@ -1,8 +1,0 @@
-##
-# Master/slave are technical terms that accurately describe the behavior of
-# systems. The fact that human slavery existed and was a horrible practice does
-# not mean that we should scrub those words from existance, nor their usage
-# where they are the clearest words available to describe a type of behavior.
-#
-Naming/InclusiveLanguage:
-  Enabled: false

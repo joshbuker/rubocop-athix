@@ -1,6 +1,5 @@
 inherit_from:
   - _layout.yml
-  - _naming.yml
   - _style.yml
 
 require:
