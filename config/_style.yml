@@ -19,3 +19,11 @@ Style/ModuleFunction:
 #
 Style/SymbolArray:
   EnforcedStyle: brackets
+
+##
+# `has_key?` while more verbose, is more explicit on what it is saying. This is
+# valuable for this particular scenario, as otherwise it could be reasonable to
+# assume `key?` is specifying if the calling object is or is not a key.
+#
+Style/PreferredHashMethods:
+  EnforcedStyle: verbose
