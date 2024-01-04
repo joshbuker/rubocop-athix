@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['README.md', 'LICENSE.md', 'config/*.yml']
 
-  s.required_ruby_version = '>= 2.5.0'
+  s.required_ruby_version = '>= 3.1.4'
 
   s.add_dependency 'rubocop', '~> 1.0'
   s.add_dependency 'rubocop-packaging', '~> 0.5'
