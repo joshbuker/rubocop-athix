@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.name        = 'rubocop-athix'
   s.summary     = 'RuboCop preferences for Athix'
   s.description =
-    'Provides a centralized location for Athix\'s commonly used RuboCop '\
+    'Provides a centralized location for Athix\'s commonly used RuboCop ' \
     'overrides.'
 
   s.license  = 'MIT'
@@ -18,9 +18,10 @@ Gem::Specification.new do |s|
   s.homepage = repo_url
 
   s.metadata = {
-    'bug_tracker_uri' => "#{repo_url}/issues",
-    'changelog_uri'   => "#{repo_url}/releases/tag/v#{version}",
-    'source_code_uri' => "#{repo_url}/tree/v#{version}"
+    'bug_tracker_uri'       => "#{repo_url}/issues",
+    'changelog_uri'         => "#{repo_url}/releases/tag/v#{version}",
+    'source_code_uri'       => "#{repo_url}/tree/v#{version}",
+    'rubygems_mfa_required' => 'true'
   }
 
   s.files = Dir['README.md', 'LICENSE.md', 'config/*.yml']
@@ -31,8 +32,4 @@ Gem::Specification.new do |s|
   s.add_dependency 'rubocop-packaging', '~> 0.5'
   s.add_dependency 'rubocop-performance', '~> 1.0'
   s.add_dependency 'rubocop-thread_safety', '~> 0.4'
-
-  s.add_development_dependency 'rake', '~> 12.0'
-  s.add_development_dependency 'rubocop-rake', '~> 0.6'
-  s.add_development_dependency 'rubocop-rspec', '~> 2.0'
 end
