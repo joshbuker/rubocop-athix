@@ -7,7 +7,7 @@
 # multiple lines.
 #
 Layout/LineLength:
-  IgnoredPatterns: ['it { should']
+  AllowedPatterns: ['it { should']
   Max: 80
 
 ##
